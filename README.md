@@ -1,1 +1,3 @@
 # Music-Recommender-Systems
+
+In this project, we implement collaborative filtering techniques in order to construct a recommender system for the Million Song Dataset. Utilizing the alternating least squares method in Spark with an implicit feedback modeling structure, we learn latent factor representations for users and tracks in the dataset in order to provide 500 recommendations for each user. We compare our results to a baseline popularity model, use our learned representation of users and tracks to construct two-dimensional visualizations using t-SNE and UMAP, and compare our distributed computing implementation of ALS to a single-machine implementation. We produce a model with a mean average precision of 0.07982
